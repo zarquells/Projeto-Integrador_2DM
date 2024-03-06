@@ -1,4 +1,4 @@
-<h1> Aprendendo a usar esta ferramenta, te faço um tutos rápido de como mexer nessa bagaça de forma mais segura: </h1>
+<h1> Aprendendo a integrar github + vstudio em minhas palavras (by Erica): </h1>
 <h2>Configurações Iniciais: Extensões, Atualizações...</h2>
 <ul>
 <li>Esteja com sua conta do github usada neste repositório conectada ao VStudio Code</li>
