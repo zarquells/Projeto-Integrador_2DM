@@ -1,0 +1,20 @@
+/* style será usado para importar as configurações de outros arquivos css,
+assim melhoramos a legibilidade do nosso código e sua manutenção */
+
+/* 'import' dos princípios básicos do site, isto é,
+a formatação do body, header e footer */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* 'home' é a pasta referente as configurações de um, ou mais html.
+Exemplo: home/paginaPrincipal/introdução.css */
+@import "./home/[...].css";
+
+/* 'utilities' é onde ficarão as estilizações globais.
+Utilizaremos a sintaxe 'class' para isso, exemplo:
+<h1 class="Sans-XX Blue"> */
+@import "./styles/utilities/typography.css";
+@import "./styles/utilities/colors.css";
+
+
