@@ -9,7 +9,28 @@ a formatação do body, header e footer */
 
 /* 'home' é a pasta referente as configurações de um, ou mais html.
 Exemplo: home/paginaPrincipal/introdução.css */
-@import "./home/[...].css";
+
+/* modifique/crie os arquivos css nos lugares de [...]*/
+/* não esqueça de integrar novos arquivos'.css'*/
+
+/* page index */
+@import "./home/index/[...].css"; 
+
+/* page login */
+@import "./home/login/[...].css"; 
+
+/* page user */
+@import "./home/user/[...].css";
+
+/* page clothes */
+@import "./home/clothes/[...].css";
+
+/* page plans */
+@import "./home/plans/[...].css";
+
+/* page supplements */
+@import "./home/supplements/[...].css";
+
 
 /* 'utilities' é onde ficarão as estilizações globais.
 Utilizaremos a sintaxe 'class' para isso, exemplo:
